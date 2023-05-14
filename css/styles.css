@@ -1,3 +1,341 @@
-class figure {
-    color: brown;
+/* Web studio..........Portfolio */
+
+body {
+  font-family: "Roboto", "Raleway", "sans-serif";
+  color: black;
+}
+
+.main-page-logo {
+  font-family: "Raleway";
+  color: #2196f3;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+a:focus,
+a:hover {
+  border-bottom: 1px solid;
+  color: #2196f3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*....................................................Header.................. */
+.header-link :focus {
+  color: #2196f3;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 0.87px;
+  font-size: 14px;
+  color: #212121;
+}
+
+.header-link-portfolio {
+  font-weight: 500;
+  line-height: 0.87px;
+  font-size: 14px;
+  color: #2196f3;
+}
+
+.header-select-page {
+  font-weight: 500;
+  line-height: 0.87px;
+  font-size: 14px;
+  color: #2196f3;
+}
+
+.mail-adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  color: #757575;
+}
+
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  color: #757575;
+}
+
+/*..............................................button section.......................*/
+
+.button:hover {
+  background-color: #2196f3;
+  color: rgba(255, 255, 255, 1);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.61;
+  color: #212121;
+}
+
+/*.............................................picture portfolio...............................................*/
+figure {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  left: 1015px;
+  top: 1130px;
+}
+
+figcaption {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto", "Raleway";
+  text-decoration: #2196f3;
+}
+
+.menu-selector {
+  color: #757575;
+  font-size: 16px;
+  line-height: 0.61;
+  font-weight: 400;
+}
+
+.figure a {
+  text-decoration-line: underline;
+  color: red;
+}
+
+/*...........................footer.....................*/
+
+footer {
+  font-family: inherit;
+}
+
+.first-theme {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 0.73;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.main-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.main-button {
+  position: sticky;
+  width: 200px;
+  height: 50px;
+  left: 800px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.place-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mail-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.phone-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.feature-first {
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.feature-first-tekst {
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.feature-second {
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feature-second-tekst {
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.feature-third {
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feature-third-tekst {
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.feature-four {
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feature-four-tekst {
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*...................................................main page..................................................................*/
+
+/*..................................................Main Page....................................................................*/
+
+/*..............footer....................*/
+
+/*.....................First page................*/
+
+/* John Doe */
+
+.main-head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.text-main-button {
+  color: #ffffff;
+}
+.our-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
+  color: #212121;
+}
+
+.imgman1 {
+  color: #212121;
+  font-size: 16px;
+  line-height: 0.84;
+  font-weight: 500;
+}
+
+.imgman2 {
+  color: #212121;
+  font-size: 16px;
+  line-height: 0.84;
+  font-weight: 500;
+}
+
+.imgman3 {
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 500;
+}
+
+.imgman4 {
+  color: #212121;
+  font-size: 16px;
+  line-height: 0.84;
+  font-weight: 500;
 }

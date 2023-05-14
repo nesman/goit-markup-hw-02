@@ -1,127 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="pl">
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" <title>Portfolio</title>
-    <style>
-    "body" {font: 16px Arial;}
-   </style>
-</head>
 
-<body>
+    <link
+      rel="stylesheet"
+      href="./css/styles.css"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
 
+    <title>Portfolio</title>
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <a href="./index.html" class="home-link" <span class="home-web">Web</span>Studio</a>
+      <nav>
+        <a href="./index.html"><span class="main-page-logo">Web</span>Studio</a>
 
-            <ul class="head-menu">
-                <li><a href="#">Agencja</a></li>
-                <li><a href="./portfolio.html" id="porf-menu">Portfolio</a></li>
-                <li><a href="#">Kontakty</a></li>
-            </ul>
-        </nav>
+        <ul class="head-menu">
+          <li><a class="header-link" href="./index.html">Agencja</a></li>
+          <li>
+            <p class="header-link-portfolio">Portfolio</p>
+          </li>
+          <li><a class="header-link" href="#">Kontakty</a></li>
+        </ul>
+      </nav>
 
-
-        <p><a href="mailto:info@example.com">info@example</a></p>
-        <a href="tel:+48111111111">+48111111111</a>
-
+      <p>
+        <a class="mail-adress" href="mailto:info@example.com">info@example</a>
+      </p>
+      <a class="phone" href="tel:+48111111111">+48111111111</a>
     </header>
     <main>
-        <nav>
-            <ul class="nav" id="loadCategories">
-                <li class="sub-menu"></li>
-                <li><button type="button">Wszystkie</button></li>
-                <li><button type="button">Strony</button></li>
-                <li><button type="button">Aplikacje</button></li>
-                <li><button type="button">Dizajn</button></li>
-                <li><button type="button">Marketing</button></li>
-            </ul>
-        </nav>
-        <section1>
-            <ul>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgTechno.jpg" alt="Technorock" width="370" height="294">
-                        <figcaption>Technocrack <br>Strona internetowa</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgNewOrlean.jpg" alt="orlean sport team" width="370"
-                            height="294">
-                        <figcaption>Grafika New Orlean vs Golden Star <br>Dizajn</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/restaurant.jpg" alt="restaurant Seafood" width="370"
-                            height="294">
-                        <figcaption>Restauracja Seafood <br>Aplikacja</figcaption>
-                    </figure>
+      <nav class="navi-filtr">
+        <ul class="navigation">
+          <li><button type="button" class="button">Wszystkie</button></li>
+          <li><button type="button" class="button">Strony</button></li>
+          <li><button type="button" class="button">Aplikacje</button></li>
+          <li><button type="button" class="button">Dizajn</button></li>
+          <li><button type="button" class="button">Marketing</button></li>
+        </ul>
+      </nav>
 
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgPrime.jpg" alt="picture with headphone" width="370"
-                            height="294">
-                        <figcaption>Projekt Prime <br>Marketing</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgBoxes.jpg" alt="picture with boxes" width="370"
-                            height="294">
-                        <figcaption>Projekt Boxes <br>Aplikacja</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgmonitor.jpg" alt="picture with the pc monitor" width="370"
-                            height="294">
-                        <figcaption>Inspiration has no Borders <br>Strona internetowa</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgMagazin.jpg" alt="picture with paper magazin" width="370"
-                            height="294">
-                        <figcaption>Magazyn Limited Edition <br>Dizajn</figcaption>
-                    </figure>
-
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imglab.jpg" alt="picture with the tag" width="370"
-                            height="294">
-                        <figcaption>Projekt LAB <br>Marketing</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img class="figure" src="./images/imgbussines.jpg" alt="picture with a notebook" width="370"
-                            height="294">
-                        <figcaption>Growing Business <br>Aplikacja</figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section1>
+      <div class="section-one">
+        <ul>
+          <li>
+            <figure class="project-1">
+              <img
+                class="figure"
+                src="./images/imgTechno.jpg"
+                alt="Technorock"
+                width="370"
+                height="294" />
+              <figcaption>Technocrack</figcaption>
+            </figure>
+            <p class="menu-selector">Strona internetowa</p>
+          </li>
+          <li>
+            <figure class="project-2">
+              <img
+                class="figure"
+                src="./images/imgNewOrlean.jpg"
+                alt="orlean sport team"
+                width="370"
+                height="294" />
+              <figcaption>Grafika New Orlean vs Golden Star</figcaption>
+            </figure>
+            <p class="menu-selector">Dizajn</p>
+          </li>
+          <li>
+            <figure class="project-3">
+              <img
+                class="figure"
+                src="./images/restaurant.jpg"
+                alt="restaurant Seafood"
+                width="370"
+                height="294" />
+              <figcaption>Restauracja Seafood</figcaption>
+            </figure>
+            <p class="menu-selector">Aplikacja</p>
+          </li>
+          <li>
+            <figure class="project-4">
+              <img
+                class="figure"
+                src="./images/imgPrime.jpg"
+                alt="picture with headphone"
+                width="370"
+                height="294" />
+              <figcaption>Projekt Prime</figcaption>
+            </figure>
+            <p class="menu-selector">Marketing</p>
+          </li>
+          <li>
+            <figure class="project-5">
+              <img
+                class="figure"
+                src="./images/imgBoxes.jpg"
+                alt="picture with boxes"
+                width="370"
+                height="294" />
+              <figcaption>Projekt Boxes</figcaption>
+            </figure>
+            <p class="menu-selector">Aplikacja</p>
+          </li>
+          <li>
+            <figure class="project-6">
+              <img
+                class="figure"
+                src="./images/imgmonitor.jpg"
+                alt="picture with the pc monitor"
+                width="370"
+                height="294" />
+              <figcaption>Inspiration has no Borders</figcaption>
+            </figure>
+            <p class="menu-selector">Strona internetowa</p>
+          </li>
+          <li>
+            <figure class="project-7">
+              <img
+                class="figure"
+                src="./images/imgMagazin.jpg"
+                alt="picture with paper magazin"
+                width="370"
+                height="294" />
+              <figcaption>Magazyn Limited Edition</figcaption>
+            </figure>
+            <p class="menu-selector">Dizajn</p>
+          </li>
+          <li>
+            <figure class="project-8">
+              <img
+                class="figure"
+                src="./images/imglab.jpg"
+                alt="picture with the tag"
+                width="370"
+                height="294" />
+              <figcaption>Projekt LAB</figcaption>
+            </figure>
+            <p class="menu-selector">Marketing</p>
+          </li>
+          <li>
+            <figure class="project-9">
+              <img
+                class="figure"
+                src="./images/imgbussines.jpg"
+                alt="picture with a notebook"
+                width="370"
+                height="294" />
+              <figcaption>Growing Business</figcaption>
+            </figure>
+            <p class="menu-selector">Aplikacja</p>
+          </li>
+        </ul>
+      </div>
     </main>
+
     <footer>
-        <address>
-            <a href="./index.html" class="home-link" <span class="home-web">Web</span>Studio</a>
-            <p>
-                Warszawa, Aleje Jerozolimskie 21.
-            </p>
-            <p><a href="mailto:info@example.com">info@example</a></p>
-            <a href="tel:+48111111111">+48111111111</a>
-
-              
-        </address>
+      <div class="adress">
+        <a href="./index.html"><span class="main-page-logo">Web</span>Studio</a>
+        <p><a href="">Warszawa, Aleje Jerozolimskie 21.</a></p>
+        <p>
+          <a class="mail-adress" href="mailto:info@example.com">info@example</a>
+        </p>
+        <a class="linkadress" href="tel:+48111111111">+48111111111</a>
+      </div>
     </footer>
-    
-</body>
-
+  </body>
 </html>

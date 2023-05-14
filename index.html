@@ -1,90 +1,189 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Web Studio</title>
-</head>
+      <link
+        rel="stylesheet"
+        href="./css/styles.css"
+        <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
 
+      <title>WebStudio</title>
+    </head>
 
-<header>
-     <nav>
-          <a href="https://www.webstudio.com">Web Studio</a>
+    <body>
+      <header>
+        <nav>
+          <a href="./index.html"
+            ><span class="main-page-logo">Web</span>Studio</a
+          >
 
-          <ul>
-               <li><a href="#">Agencja</a></li>
-               <li><a href="./portfolio.html" >Portfolio</a></li>
-               <li><a href="#">Kontakt</a></li>
+          <ul class="head-menu">
+            <li>
+              <p class="header-select-page">Agencja</p>
+            </li>
+            <li>
+              <p>
+                <a class="header-link" href="./portfolio.html">Portfolio</a>
+              </p>
+            </li>
+            <li>
+              <a class="header-link" href="example.html">Kontakty</a>
+            </li>
           </ul>
-     </nav>
+        </nav>
 
+        <p>
+          <a class="mail-adress" href="mailto:info@example.com">info@example</a>
+        </p>
+        <a class="phone" href="tel:+48111111111">+48111111111</a>
+      </header>
 
-     <p><a href="mailto:info@example.com">info@example</a></p>
-     <a href="tel:+48111111111">+48111111111</a>
-    
+      <main>
+        <h1 class="first-theme">
+          Effective solutions<br />
+          for your business
+        </h1>
 
-</header>
+        <div class="order-button">
+          <button type="button" class="main-button">Zamów usługę</button>
+          <a href="https://google.com" class="text-main-button">Zamów usługę</a>
+        </div>
 
-<main>
-     <h1>Effective solutions for your business</h1>
-     <button type="button">Zamów usługę</button>
-
-     <aside>
+        <aside>
           <ul>
-               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                    Interdum et malesuada</li>
-               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                    Interdum et malesuada</li>
-               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                    Interdum et malesuada</li>
-               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                    Interdum et malesuada</li>
+            <li class="our-atut-first">
+              <h3 class="feature-first">Lorem ipsum</h3>
+              <p class="feature-first-tekst">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Nam vel arcu sem. <br />Sed non sodales dui.
+                Interdum et malesuada
+              </p>
+            </li>
+            <li class="our-atut-second">
+              <h3 class="feature-second">Lorem ipsum</h3>
+              <p class="feature-second-tekst">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Nam vel arcu sem. <br />Sed non sodales dui.
+                Interdum et malesuada
+              </p>
+            </li>
+            <li class="our-atut-third">
+              <h3 class="feature-third">Lorem ipsum</h3>
+              <p class="feature-third-tekst">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Nam vel arcu sem. <br />Sed non sodales dui.
+                Interdum et malesuada
+              </p>
+            </li>
+            <li class="our-atut-four">
+              <h3 class="feature-four">Lorem ipsum</h3>
+              <p class="feature-four-tekst">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Nam vel arcu sem. <br />Sed non sodales dui.
+                Interdum et malesuada
+              </p>
+            </li>
           </ul>
-     </aside>
+        </aside>
 
+        <h2 class="main-head">Czym sie zajmujemy</h2>
+        <div class="main-pg-photo-section">
+          <ul>
+            <li>
+              <img
+                src="./images/pcpicture.jpg"
+                alt="first picture"
+                width="370"
+                height="294" />
+            </li>
+            <li>
+              <img
+                src="./images/pcphone.jpg"
+                alt="second picture"
+                width="370"
+                height="294" />
+            </li>
+            <li>
+              <img
+                src="./images/pctablet.jpg"
+                alt="third picture"
+                width="370"
+                height="294" />
+            </li>
+          </ul>
+        </div>
 
-     <h2>Czym sie zajmujemy</h2>
-
-     <ul>
-          <li><img src="./images/pcpicture.jpg" alt="first picture" width="370" height="294"></li>
-          <li><img src="./images/pcphone.jpg" alt="second picture" width="370" height="294"></li>
-          <li><img src="./images/pctablet.jpg" alt="third picture" width="370" height="294"></li>
-     </ul>
-
-     <h2>Nasz Zespół</h2>
-     <figure>
-          <img src="./images/imgman1.jpg" alt="the smile man in oculars" width="270" height="260">
+        <h2 class="our-team">Nasz Zespół</h2>
+        <figure>
+          <img
+            src="./images/imgman1.jpg"
+            alt="the smile man in oculars"
+            width="270"
+            height="260" />
+          <p class="imgman1">John Doe</p>
           <figcaption>John Doe Product Designer</figcaption>
-     </figure>
-     <figure>
-          <img src="./images/imgman2.jpg" alt="smiling woman with glasses" width="270" height="260">
-          <figcaption>John Doe Fronted Developer</figcaption>
-     </figure>
-     <figure>
-          <img src="./images/imgman3.jpg" alt="smiling young man" width="270" height="260">
+        </figure>
+        <figure>
+          <img
+            src="./images/imgman2.jpg"
+            alt="smiling woman with glasses"
+            width="270"
+            height="260" />
+          <p class="imgman2">John Doe</p>
+          <figcaption>Fronted Developer</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./images/imgman3.jpg"
+            alt="smiling young man"
+            width="270"
+            height="260" />
+          <p class="imgman3">John Doe</p>
           <figcaption>John Doe Marketing</figcaption>
-     </figure>
-     <figure>
-          <img src="./images/imgman4.jpg" alt="smiling young man in glasses with beard" width="270" height="260">
+        </figure>
+        <figure>
+          <img
+            src="./images/imgman4.jpg"
+            alt="smiling young man in glasses with beard"
+            width="270"
+            height="260" />
+          <p class="imgman4">John Doe</p>
           <figcaption>John Doe UI Designer</figcaption>
+        </figure>
+      </main>
 
-     </figure>
-
-</main>
-
-<footer>
-
-     <address>
-          <a href="https://www.webstudio.com">Web Studio</a>
+      <footer>
+        <div class="adress">
           <p>
-               Warszawa, Aleje Jerozolimskie 21.
+            <a href="./index.html"
+              ><span class="main-page-logo">Web</span>Studio</a
+            >
           </p>
-          <p><a href="mailto:info@example.com">info@example</a></p>
-          <a href="tel:+48111111111">+48111111111</a>
-     </address>
-</footer>
-</body>
-
+          <p>
+            <a class="place-adress" href=""
+              >Warszawa, Aleje Jerozolimskie 21.</a
+            >
+          </p>
+          <p>
+            <a class="mail-adress" href="mailto:info@example.com"
+              >info@example</a
+            >
+          </p>
+          <p>
+            <a class="phone-footer" href="tel:+48111111111">+48111111111</a>
+          </p>
+        </div>
+      </footer>
+    </body>
+  </html>
 </html>
